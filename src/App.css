@@ -1,0 +1,38 @@
+/* MAIN PARTS */
+.App {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+html {
+    /* a cada 1rem será considerado 10px */
+    font-size: 62.5%;
+}
+
+
+body {
+    /* faz com que essa fonte seja o mesmo que 16px padrão (devido a font-size setada na tag html) */
+    font-size: 1.6rem;
+}
+
+
+::selection {
+    color: #FFF;
+    background-color: #191e28;
+}
