@@ -13,8 +13,8 @@ function Goals() {
                 </div>
 
                 <div className="goals_text_div">
-                <h2>Lorem Ipsum</h2>
-                <p>Evolução na carreira e desempenho máximo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut dictum semper massa quis volutpat.</p>
+                <h2>Objetivos</h2>
+                <p>Quero ajudar a minha equipe com a minha energia e com o máximo do meu conhecimento, buscando solucionar problemas, ajudando o próximo e consequentemente evoluindo como programador. Entre em contato comigo, vou ficar muito feliz com o seu interesse no meu trabalho!</p>
                 </div>
             </div>
         </section>

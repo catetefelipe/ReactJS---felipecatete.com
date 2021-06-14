@@ -14,11 +14,11 @@ function Skills() {
                 </div>
                 <div className="grid_item i_2">
                     <h3>Base Fundamental</h3>
-                    <p>Durante meu aprendizado foquei muito na construção de uma boa base dos fundamentos, para entender o conceito e os porquês</p>
+                    <p>Foquei muito na construção de uma boa base dos fundamentos, para entender os conceitos e os porquês</p>
                 </div>
                 <div className="grid_item i_3">
                     <h3>Ferramentas</h3>
-                    <p>HTML, CSS, JavaScript, React, GitHub, Vercel, WordPress, Figma, etc</p>
+                    <p>HTML, CSS, JavaScript, React, Chrome Dev Tools, GitHub, Vercel, PHP, WordPress, Figma, etc</p>
                 </div>  
                 <div className="grid_item i_4">
                     <h3>UI/UX</h3>
@@ -30,7 +30,7 @@ function Skills() {
                 </div>  
                 <div className="grid_item i_6">
                     <h3>SEO</h3>
-                    <p>Além do SEO técnico, entendo muito bem sobre content SEO, o que facilita bastante a minha conexão com profissionais de marketing</p>
+                    <p>Além do SEO técnico, entendo bem sobre content SEO, o que facilita bastante a minha conexão com profissionais de marketing</p>
                 </div>
             </div>
         </section>

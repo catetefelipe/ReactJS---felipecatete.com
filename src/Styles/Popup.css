@@ -6,7 +6,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -23,6 +22,9 @@
 
 .contact_infos a {
     color: #008cff;
+}
+.contact_infos a:hover {
+    color: #006bc2;
 }
 
 
@@ -45,12 +47,12 @@
 
 /* ==== INDIVIDUAL CONTACTS ==== */
 .cont_1 b {
-    color: rgba(255, 0, 0, 0.582);
+    color: #b10000;
 }
 
 
 .cont_2 b {
-    color: #25d366;
+    color: #00b109;
 }
 
 

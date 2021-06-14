@@ -16,19 +16,19 @@ function Footer() {
                     <p className="ps"><b>PS</b> O código desse site foi desenvolvido por mim e está em um repositório privado. Será disponibilizado apenas para contratantes ou clientes.</p>
                 </div>
 
-                <a href="#">
+                <a href="https://www.linkedin.com/in/felipe-catete/" target="_blank">
                     <div class="all_rectangles linkedin_rectangle">
                         <img src={linkedin} alt="LinkedIn" width="30px" height="30px" />
                     </div>
                 </a>
             
-                <a href="#">
+                <a href="https://github.com/felipe-catete" target="_blank">
                     <div class="all_rectangles github_rectangle">
                         <img src={github} alt="GitHub" width="30px" height="30px" />
                     </div>
                 </a>
 
-                <a href="#">
+                <a href="mailto: catetedev@gmail.com">
                     <div class="all_rectangles email_rectangle">
                         <img src={gmail} alt="Gmail" width="30px" height="30px" />
                     </div>

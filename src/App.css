@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -34,5 +35,5 @@ body {
 
 ::selection {
     color: #FFF;
-    background-color: #191e28;
+    background-color: #008cff;
 }
