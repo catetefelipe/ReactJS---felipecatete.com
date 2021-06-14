@@ -18,7 +18,7 @@ function Skills() {
                 </div>
                 <div className="grid_item i_3">
                     <h3>Ferramentas</h3>
-                    <p>HTML, CSS, JavaScript, React, GitHub, Vercel, WordPress, etc</p>
+                    <p>HTML, CSS, JavaScript, React, GitHub, Vercel, WordPress, Figma, etc</p>
                 </div>  
                 <div className="grid_item i_4">
                     <h3>UI/UX</h3>

@@ -15,7 +15,7 @@ export default function Popup() {
         return (
             <>
                 <div style={BUTTON_WRAPPER_STYLES} onClick={() => console.log('clicked')}>
-                    <button onClick={() => setIsOpen(true)}  className="contacts_button">Contatos</button>
+                    <button onClick={() => setIsOpen(true)}  className="contacts_button">Entre em Contato</button>
 
                     <Modal open={isOpen} onClose={() => setIsOpen(false)}></Modal>
                 </div>

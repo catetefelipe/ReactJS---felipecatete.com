@@ -54,19 +54,6 @@ render() {
                             Objetivos
                             </Link>
                         </li>
-
-                        <li>
-                            <Link
-                                activeClass="active"
-                                to="footer"
-                                spy={true}
-                                smooth={true}
-                                offset={0}
-                                duration={500}
-                            >
-                            Contatos
-                            </Link>
-                        </li>
                     </ul>
                 </div>
             </div>
