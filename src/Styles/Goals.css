@@ -75,6 +75,7 @@
     font-size: 1.3rem;
     line-height: 2rem;
     padding: 1rem 0 2rem 0;
+    text-align: center;
 }
 
 
@@ -120,6 +121,7 @@
     .goals_text_div p {
         font-size: 1.6rem;
         line-height: 2.4rem;
+        text-align: start;
     }
 } /* ---- laptops and desktops ---- */
 

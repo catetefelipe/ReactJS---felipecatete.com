@@ -1,0 +1,117 @@
+/* ==== CONTACTS ==== */
+.contact_infos {
+    width: 100%;
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.contact_infos div {
+    margin: 2rem;
+    padding: 1rem;
+}
+
+
+.contact_infos span {
+    font-size: 1.3rem;
+}
+
+
+.contact_infos a {
+    color: #008cff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== INDIVIDUAL CONTACTS ==== */
+.cont_1 b {
+    color: rgba(255, 0, 0, 0.582);
+}
+
+
+.cont_2 b {
+    color: #25d366;
+}
+
+
+.cont_3 b {
+    color: #0072b1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== MEDIA QUERIES ==== */
+@media (min-width: 1024px) {
+    .contact_infos div {
+        margin: 1.8rem;
+    }
+
+    .contact_infos span {
+        font-size: 1.6rem;
+    }
+} /* ---- laptops and desktops ---- */
+
+
+
+
+
+@media (min-width: 762px) and (max-width: 1024px) {
+    .contact_infos div {
+        margin: 1.4rem;
+    }
+
+    .contact_infos span {
+        font-size: 1.5rem;
+    }
+} /* ---- tablets ---- */
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 762px) {
+    .contact_infos div {
+        margin: 1.2rem;
+    }
+
+    .contact_infos span {
+        font-size: 1.4rem;
+    }
+} /* ---- mobile and small tablets ---- */

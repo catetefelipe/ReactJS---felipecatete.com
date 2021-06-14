@@ -10,15 +10,15 @@ function Skills() {
             <div className="grid_container">
                 <div className="grid_item i_1">
                     <h3>Inglês Fluente</h3>
-                    <p>Com certeza esse um dos motivos que me fazem aprender mais rápido, ter um código mais coeso e faça conexões com devs de outros países</p>
+                    <p>O motivo que me faz aprender mais rápido, ter um código mais coeso, e me permite fazer conexões com devs de outros países</p>
                 </div>
                 <div className="grid_item i_2">
-                    <h3>Resolvedor de Problemas</h3>
-                    <p>Assim como gosto de aprender a aprender, eu também gosto de aprender a resolver, assim ganho agilidade na hora de resolver bugs</p>
+                    <h3>Base Fundamental</h3>
+                    <p>Durante meu aprendizado foquei muito na construção de uma boa base dos fundamentos, para entender o conceito e os porquês</p>
                 </div>
                 <div className="grid_item i_3">
-                    <h3>Design Responsivo</h3>
-                    <p>indiscutivelmente a principal habilidade que um desenvolvedor front-end deve ter hoje em dia</p>
+                    <h3>Ferramentas</h3>
+                    <p>HTML, CSS, JavaScript, React, GitHub, Vercel, WordPress, etc</p>
                 </div>  
                 <div className="grid_item i_4">
                     <h3>UI/UX</h3>
@@ -26,7 +26,7 @@ function Skills() {
                 </div>
                 <div className="grid_item i_5">
                     <h3>Adaptabilidade</h3>
-                    <p>Gosto do desafio de me adaptar a novas tecnologias, ferramentas, pessoas e um novo ambiente de trabalho</p>
+                    <p>Gosto do desafio de me adaptar a novas tecnologias, ferramentas, equipes, e pessoas com diferentes personalidades</p>
                 </div>  
                 <div className="grid_item i_6">
                     <h3>SEO</h3>
