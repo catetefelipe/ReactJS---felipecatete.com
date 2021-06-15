@@ -1,7 +1,6 @@
 /* ==== CONTACTS ==== */
 .contact_infos {
     width: 100%;
-    margin-left: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -12,6 +11,7 @@
 .contact_infos div {
     margin: 2rem;
     padding: 1rem;
+    text-align: center;
 }
 
 
@@ -23,39 +23,20 @@
 
 
 
+/* ==== CONTACTS ==== */
 /* ---- text inside button ---- */
 .contacts_button {
     font-size: 1.7rem;
 }
 
 
-
-
-
-
-
-
-
-/* ---- span ---- */
-.contact_infos span {
-    font-size: 1.7rem;
-}
-
-
-
-
-
-
-
-
-
-
 /* ---- a ---- */
 .contact_infos a {
-    color: #008cff;
-}
-.contact_infos a:hover {
-    color: #006bc2;
+    padding: .6rem;
+    font-size: 1.7rem;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
 }
 
 
@@ -77,18 +58,27 @@
 
 
 /* ==== INDIVIDUAL CONTACTS ==== */
-.cont_1 b {
-    color: #b10000;
+.cont_1 a {
+    background-color: #b10000;
+}
+.cont_1 a:hover {
+    background-color: #a00000;
 }
 
 
-.cont_2 b {
-    color: #00b109;
+.cont_2 a {
+    background-color: #00b109;
+}
+.cont_2 a:hover {
+    background-color: #009c08;
 }
 
 
-.cont_3 b {
-    color: #0072b1;
+.cont_3 a {
+    background-color: #0072b1;
+}
+.cont_3 a:hover {
+    background-color: #0068a0;
 }
 
 
