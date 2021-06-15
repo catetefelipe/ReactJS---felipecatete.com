@@ -15,11 +15,42 @@
 }
 
 
-.contact_infos span {
-    font-size: 1.3rem;
+
+
+
+
+
+
+
+
+/* ---- text inside button ---- */
+.contacts_button {
+    font-size: 1.7rem;
 }
 
 
+
+
+
+
+
+
+
+/* ---- span ---- */
+.contact_infos span {
+    font-size: 1.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* ---- a ---- */
 .contact_infos a {
     color: #008cff;
 }
@@ -84,10 +115,6 @@
     .contact_infos div {
         margin: 1.8rem;
     }
-
-    .contact_infos span {
-        font-size: 1.6rem;
-    }
 } /* ---- laptops and desktops ---- */
 
 
@@ -98,10 +125,6 @@
     .contact_infos div {
         margin: 1.4rem;
     }
-
-    .contact_infos span {
-        font-size: 1.5rem;
-    }
 } /* ---- tablets ---- */
 
 
@@ -111,9 +134,5 @@
 @media (min-width: 500px) and (max-width: 762px) {
     .contact_infos div {
         margin: 1.2rem;
-    }
-
-    .contact_infos span {
-        font-size: 1.4rem;
     }
 } /* ---- mobile and small tablets ---- */

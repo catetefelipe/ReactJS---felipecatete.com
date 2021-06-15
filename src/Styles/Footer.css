@@ -52,12 +52,12 @@
 /* ==== TEXT ==== */
 .footer_text_div h2 {
     padding: 1rem 0 2rem 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 
 .footer_text_div p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     line-height: 2rem;
     padding: .5rem 0 1rem 0;
 
@@ -65,12 +65,12 @@
 
 
 .footer_text_div .ps {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 
 .footer_text_div .ps b {
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 
@@ -152,12 +152,10 @@
     }
 
     .footer_text_div h2 {
-        font-size: 2.8rem;
         padding: 0 0 15px 0;
     }
 
     .footer_text_div p {
-        font-size: 1.6rem;
         line-height: 2.4rem;
     }
 
@@ -190,12 +188,10 @@
     }
 
     .footer_text_div h2 {
-        font-size: 2.7rem;
         padding: 0 0 15px 0;
     }
 
     .footer_text_div p {
-        font-size: 1.5rem;
         line-height: 2.4rem;
         padding: 0 0 5px 0;
     }
@@ -215,12 +211,7 @@
 
 
 @media (min-width: 500px) and (max-width: 762px) {
-    .footer_text_div h2 {
-        font-size: 2.6rem;
-    }
-
     .footer_text_div p {
-        font-size: 1.4rem;
         line-height: 2.2rem;
     }
 

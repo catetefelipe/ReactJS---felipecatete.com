@@ -6,11 +6,6 @@
 }
 
 
-.goals h2 {
-    font-size: 2.5rem;
-}
-
-
 
 
 
@@ -66,12 +61,13 @@
 /* ==== TEXT ==== */
 .goals_text_div h2 {
     padding: 1rem 0 2rem 0;
+    font-size: 2.8rem;
     text-align: center;
 }
 
 
 .goals_text_div p {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     line-height: 2rem;
     padding: 1rem 0 2rem 0;
     text-align: center;
@@ -98,10 +94,6 @@
 
 /* ==== MEDIA QUERIES ==== */
 @media (min-width: 1024px) {
-    .goals h2 {
-        font-size: 2.8rem;
-    }
-
     .goals_main_div {
         width: 90%;
         margin: auto;
@@ -118,7 +110,6 @@
     }
 
     .goals_text_div p {
-        font-size: 1.6rem;
         line-height: 2.4rem;
         text-align: start;
     }
@@ -129,17 +120,12 @@
 
 
 @media (min-width: 762px) and (max-width: 1024px) {
-    .goals h2 {
-        font-size: 2.7rem;
-    }
-
     .goals_text_div {
         width: 80%;
         margin: auto;
     }
 
     .goals_text_div p {
-        font-size: 1.5rem;
         line-height: 2.4rem;
     }
 } /* ---- tablets ---- */
@@ -149,12 +135,7 @@
 
 
 @media (min-width: 500px) and (max-width: 762px) {
-    .goals h2 {
-        font-size: 2.6rem;
-    }
-
     .goals_text_div p {
-        font-size: 1.4rem;
         line-height: 2.2rem;
     }
 } /* ---- mobile and small tablets ---- */
