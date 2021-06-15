@@ -1,7 +1,7 @@
 import React from "react";
 import "../Styles/Symbols.css";
-import { SymbList } from "./SymbList";
-import SymbItem from "./SymbItem";
+import { SymbList } from "./SymbolsHelpers/SymbList";
+import SymbItem from "./SymbolsHelpers/SymbItem";
 
 
 
