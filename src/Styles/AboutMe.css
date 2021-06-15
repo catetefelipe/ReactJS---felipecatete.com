@@ -1,7 +1,7 @@
 /* ==== SECTION ==== */
 .aboutme {
     width: 100%;
-    padding: 7% 5% 7% 5%;
+    padding: 5%;
     text-align: center;
     background-color: #ebeced;
 }
@@ -36,7 +36,7 @@
     margin: auto;
     width: 38vw;
     max-width: 250px;
-    padding: 1rem 0 2rem 0;
+    padding: 2rem 0 4rem 0;
 }
 
 
