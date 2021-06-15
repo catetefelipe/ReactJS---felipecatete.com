@@ -1,7 +1,7 @@
 /* ==== HEADER ==== */
 .home {
     width: 100%;
-    padding: 7%;
+    padding: 8% 5% 8% 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@
 
 /* ---- h1 / p ---- */
 .home_text_div h1 {
-    font-size: 2.8rem;
+    font-size: 3.4rem;
     font-weight: normal;
     padding: 1rem 0 1rem 0;
 }
@@ -108,7 +108,7 @@
 
 .home_text_div p {
     padding: 1rem 0 3rem 0;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 2rem;
 }
 
