@@ -9,7 +9,7 @@
 
 .aboutme h2 {
     padding: 1rem 0 2rem 0;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 
@@ -130,7 +130,6 @@
     }
 
     .aboutme_main_div p {
-        font-size: 1.6rem;
         line-height: 2.4rem;
     }
 } /* ---- laptops and desktops ---- */
@@ -149,7 +148,6 @@
     }
 
     .aboutme_main_div p {
-        font-size: 1.5rem;
         line-height: 2.4rem;
     }
 } /* ---- tablets ---- */
@@ -168,7 +166,6 @@
     }
 
     .aboutme_main_div p {
-        font-size: 1.4rem;
         line-height: 2.2rem;
     }
 } /* ---- mobile and small tablets ---- */
