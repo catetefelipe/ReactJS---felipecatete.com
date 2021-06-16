@@ -141,7 +141,6 @@
     }
 
     .aboutme_main_div p {
-        font-size: 1.7rem;
         line-height: 2.4rem;
     }
 } /* ---- tablets ---- */
@@ -156,7 +155,6 @@
     }
 
     .aboutme_main_div p {
-        font-size: 1.7rem;
         line-height: 2.2rem;
     }
 } /* ---- mobile and small tablets ---- */
