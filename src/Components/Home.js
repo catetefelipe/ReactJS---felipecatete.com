@@ -15,7 +15,7 @@ function Home() {
 
                 <div className="home_text_div">
                     <h1>Oi,<br /> sou o Felipe,<br /> Front-End Dev</h1>
-                    <p>Desenvolvedor Web Front-End criativo e analítico que tem como objetivo transformar UI/UX design layouts em códigos limpos, organizados, e fiéis aos layouts solicitados.</p>
+                    <p>Desenvolvedor Web Front-End criativo e analítico que tem como objetivo transformar UI/UX designs em códigos limpos, organizados, e fiéis aos layouts solicitados.</p>
                     <Popup />
                 </div>
             </div> {/* ---- closing main_div ---- */}
