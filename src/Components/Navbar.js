@@ -48,7 +48,7 @@ render() {
                                 to="goals"
                                 spy={true}
                                 smooth={true}
-                                offset={-80}
+                                offset={-50}
                                 duration={500}
                             >
                             Objetivos
