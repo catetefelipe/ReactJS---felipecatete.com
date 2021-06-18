@@ -12,7 +12,7 @@ function AboutMe() {
                 <div className="aboutme_img_div">
                     <img src={pic} alt="Felipe Catete" />
                 </div>
-                <p>Posso dizer que eu sou bastante focado e esforçado, sempre em busca da evolução, alcance de todas as metas e resolução dos problemas. Procuro sempre tratar meus colegas de trabalho com muito respeito, ouvindo, auxiliando e incentivando o meu time.</p>
+                <p>Estou em busca da evolução na minha carreira como programador, por isso procuro por uma empresa com profissionais motivados, que em troca receberão toda a minha dedicação e ajuda.</p>
             </div>
         </section>
     )
