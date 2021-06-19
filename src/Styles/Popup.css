@@ -9,7 +9,7 @@
 
 
 .contact_infos div {
-    margin: 2rem;
+    margin: 4%;
     padding: 1rem;
     text-align: center;
 }
@@ -32,7 +32,7 @@
 
 /* ---- a ---- */
 .contact_infos a {
-    padding: .6rem;
+    padding: 1rem;
     font-size: 1.7rem;
     color: #fff;
     border-radius: 5px;
@@ -58,26 +58,18 @@
 
 
 /* ==== INDIVIDUAL CONTACTS ==== */
-.cont_1 a {
+.ctt_1 a {
     background-color: #b10000;
 }
-.cont_1 a:hover {
+.ctt_1 a:hover {
     background-color: #a00000;
 }
 
 
-.cont_2 a {
-    background-color: #00b109;
-}
-.cont_2 a:hover {
-    background-color: #009c08;
-}
-
-
-.cont_3 a {
+.ctt_2 a {
     background-color: #0072b1;
 }
-.cont_3 a:hover {
+.ctt_2 a:hover {
     background-color: #0068a0;
 }
 
@@ -102,9 +94,7 @@
 
 /* ==== MEDIA QUERIES ==== */
 @media (min-width: 1024px) {
-    .contact_infos div {
-        margin: 1.8rem;
-    }
+
 } /* ---- laptops and desktops ---- */
 
 
@@ -112,9 +102,7 @@
 
 
 @media (min-width: 762px) and (max-width: 1024px) {
-    .contact_infos div {
-        margin: 1.4rem;
-    }
+
 } /* ---- tablets ---- */
 
 
@@ -122,7 +110,5 @@
 
 
 @media (min-width: 500px) and (max-width: 762px) {
-    .contact_infos div {
-        margin: 1.2rem;
-    }
+
 } /* ---- mobile and small tablets ---- */
