@@ -42,13 +42,10 @@ export default function Modal({ open, children, onClose }) {
 
                     <div className="contact_infos">
                         <div>
-                            <span className="cont_1"><a href="mailto: catetedev@gmail.com">catetedev@gmail.com</a></span>
+                            <span className="ctt_1"><a href="mailto: catetedev@gmail.com">catetedev@gmail.com</a></span>
                         </div>
                         <div>
-                            <span className="cont_2"><a href="https://api.whatsapp.com/send?phone=5521981118452" target="_blank">WhatsApp</a></span>
-                        </div>
-                        <div>
-                            <span className="cont_3"><a href="https://www.linkedin.com/in/felipe-catete/" target="_blank">LinkedIn</a></span>
+                            <span className="ctt_2"><a href="https://www.linkedin.com/in/felipe-catete/" target="_blank">LinkedIn</a></span>
                         </div>
                     </div>
                 </div>
