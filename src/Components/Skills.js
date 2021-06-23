@@ -9,7 +9,7 @@ function Skills() {
             <h2>Habilidades</h2>
             <div className="grid_container">
                 <div className="grid_item i_1">
-                    <h3>Inglês Fluente</h3>
+                    <h3>Inglês Avançado</h3>
                     <p>O motivo que me faz aprender mais rápido, ter um código mais coeso, e me permite fazer conexões com devs de outros países</p>
                 </div>
                 <div className="grid_item i_2">
@@ -18,7 +18,7 @@ function Skills() {
                 </div>
                 <div className="grid_item i_3">
                     <h3>Ferramentas</h3>
-                    <p>HTML, CSS, JavaScript, React, Chrome Dev Tools, GitHub, Netlify, PHP, WordPress, Figma, etc</p>
+                    <p>HTML, CSS, JavaScript, React, Chrome Dev Tools, GitHub, Netlify, PHP, WordPress, Bootstrap, etc</p>
                 </div>  
                 <div className="grid_item i_4">
                     <h3>UI/UX</h3>
