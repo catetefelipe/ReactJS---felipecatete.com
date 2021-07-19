@@ -31,7 +31,7 @@ function Home() {
                         <p>Desenvolvedor Web Front-End criativo e analítico que tem como objetivo transformar UI/UX designs em códigos limpos, organizados, e fiéis aos layouts solicitados.</p>
                         <Popup />
                     </div>
-                </div> {/* ---- closing main_div ---- */}
+                </div>
             </header>
 
 
