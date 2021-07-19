@@ -9,8 +9,8 @@ import SymbItem from "./SymbolsHelpers/SymbItem";
 
 function Symbols() {
     return (
-        <section className="symbols">
-            <div className="symb_main_div">
+        <section className="home_section2">
+            <div className="home_section2_main_div">
                 <div className="symbList">
                     {SymbList.map((symbItem, key) => {
                         return (

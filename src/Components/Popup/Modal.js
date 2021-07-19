@@ -47,6 +47,9 @@ export default function Modal({ open, children, onClose }) {
                         <div>
                             <span className="ctt_2"><a href="https://www.linkedin.com/in/felipe-catete/" target="_blank">LinkedIn</a></span>
                         </div>
+                        <div>
+                            <span className="ctt_3"><a href="https://github.com/felipe-catete" target="_blank">GitHub</a></span>
+                        </div>
                     </div>
                 </div>
     </>,

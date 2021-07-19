@@ -8,14 +8,17 @@ O QUE EU VOU FAZER?
 
 
 
+A FAZER
+- Organizar o código e deixá-lo mais enxuto utilizando algumas props
 
 
 
 
 
-18/07/2021
-- Criei uma pasta "Páginas" e criei a principal, a Home
-- Removi a one-page baseado únicamente em componentização
-- Importei o código desses componentes e organizei o código na página da Home
-- Alterei as rotas dos documentos devido a essa nova organização em pastas
-- Coseguir terminar a estruturação dos códigos dentro da Home
+19/07/2021
+- Criei uma section responsiva que convida as pessoas a conhecerem meu repositório no GitHub
+- Removi a scrollbar lateral
+- Padronizei o código da home identificando o número de cada section (home_section1, home_section2, home_section3)
+- Organizei e padronizei os nomes dos arquivos que guardam as imagens da home
+- Organizei o código da navbar
+- Adicionei o GitHub no modal do botão "Entre em Contato"

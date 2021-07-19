@@ -1,6 +1,6 @@
-/* ==== HEADER ==== */
-.home {
-    width: 100%;
+/* ==================== SECTION 1 ==================== */
+/* ----- main ----- */
+.home_section1 {
     padding: 8% 5% 8% 5%;
     display: flex;
     justify-content: center;
@@ -9,32 +9,31 @@
 }
 
 
-/* ==== MAIN ==== */
-.home_main_div {
+.home_section1_main_div {
     flex-direction: column;
     margin: auto;
 }
 
 
-/* ==== IMAGE ==== */
-.home_image_div {
+/* ----- imagem ----- */
+.home_section1_image_div {
     width: 60vw;
     margin: auto;
     padding: 1rem 0 2rem 0;
 }
 
 
-.home_image_div img {
+.home_section1_image_div img {
     width: 100%;
 }
-.home_image_div:hover {
+.home_section1_image_div:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
     border-radius: 1000px;
 }
 
 
-/* ==== TEXT ==== */
+/* ----- texto ----- */
 .home_text_div {
     text-align: center;
 }
@@ -110,16 +109,15 @@
 
 
 
-/* ==================== SYMBOLS ==================== */
-.symbols {
-    width: 100%;
+/* ==================== SECTION 2 ==================== */
+.home_section2 {
     padding: 4vh 1vw;
     background-color: #191e28;
 }
 
 
 /* ----- main ----- */
-.symb_main_div {
+.home_section2_main_div {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -166,16 +164,15 @@
 
 
 
-/* ==================== SKILLS ==================== */
-.skills {
-    width: 100%;
+/* ==================== SECTION 3 ==================== */
+.home_section3 {
     padding: 5%;
     text-align: center;
     background-color: #FFF;
 }
 
 
-.skills h2 {
+.home_section3 h2 {
     padding: 3rem 0 4rem 0;
     font-size: 2.8rem;
 }
@@ -238,30 +235,115 @@
 
 
 
-/* ==================== ABOUT ME ==================== */
-.aboutme {
+/* ==================== SECTION 4 ==================== */
+.home_section4 {
+    padding: 5% 4% 10% 4%;
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* ----- h2 ----- */
+.home_section4 h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+}
+
+
+/* ----- p ----- */
+.home_section4 div p {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+
+/* ----- imagem ----- */
+.github_div_img {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+.home_section4 div img {
     width: 100%;
+    max-width: 200px;
+}
+
+
+/* ----- lista ----- */
+.home_section4 div ul {
+    display: table;
+    margin: 0 auto;
+}
+.home_section4 div li {
+    margin-bottom: .3rem;
+}
+
+
+/* ----- button ----- */
+.github_div_button {
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+
+.github_div_button a {
+    padding: 2vh 4vw;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.github_div_button a:hover {
+    background-color: rgb(194, 194, 194)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== SECTION 5 ==================== */
+.home_section5 {
     padding: 5%;
     text-align: center;
     background-color: #ebeced;
 }
 
 
-.aboutme h2 {
+.home_section5 h2 {
     padding: 2.5rem 0 1.5rem 0;
     font-size: 2.8rem;
 }
 
 
 /* ----- div principal ----- */
-.aboutme_main_div {
+.home_section5_main_div {
     width: 90%;
     margin: auto;
 }
 
 
 /* ----- imagens ----- */
-.aboutme_img_div {
+.home_section5_img_div {
     margin: auto;
     width: 45vw;
     max-width: 250px;
@@ -269,19 +351,19 @@
 }
 
 
-.aboutme_img_div img {
+.home_section5_img_div img {
     width: 100%;
     border-radius: 100px;
     background-color: #008cff;
 }
-.aboutme_img_div img:hover {
+.home_section5_img_div img:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s;
 }
 
 
 /* ----- texto ----- */
-.aboutme_main_div p {
+.home_section5_main_div p {
     font-size: 1.7rem;
     line-height: 2rem;
     padding-bottom: 1rem;
@@ -306,16 +388,15 @@
 
 
 
-/* ==================== GOALS ==================== */
-.goals {
-    width: 100%;
+/* ==================== SECTION 6 ==================== */
+.home_section6 {
     padding: 7% 5% 7% 5%;
     background-color: #FFF;
 }
 
 
 /* ----- images ----- */
-.goals_img_div {
+.home_section6_img_div {
     display: flex;
     justify-content: center;
     width: 90%;
@@ -324,7 +405,7 @@
 }
 
 
-.goals_img_div img {
+.home_section6_img_div img {
     width: 100%;
     max-width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -332,14 +413,14 @@
 
 
 /* ----- text ----- */
-.goals_text_div h2 {
+.home_section6_text_div h2 {
     padding: 2rem 0 2.5rem 0;
     font-size: 2.8rem;
     text-align: center;
 }
 
 
-.goals_text_div p {
+.home_section6_text_div p {
     font-size: 1.7rem;
     line-height: 2rem;
     padding-bottom: 1rem;
@@ -425,7 +506,8 @@
 
 /* ==================== MEDIA QUERIES ==================== */
 @media (min-width: 1024px) {
-    .home_main_div {
+/* ==================== SECTION 1 ==================== */
+    .home_section1_main_div {
         display: flex;
         flex-direction: row-reverse;
     }
@@ -448,7 +530,7 @@
         font-size: 1.6rem;
     }
 
-    .home_image_div {
+    .home_section1_image_div {
         max-width: 340px;
     }
 
@@ -456,7 +538,7 @@
 
 
 
-/* ==================== SKILLS ==================== */
+/* ==================== SECTION 3 ==================== */
     .grid_item h3 {
         font-size: 2rem;
     }
@@ -469,12 +551,24 @@
 
 
 
-/* ==================== ABOUT ME ==================== */
-    .aboutme_main_div {
+/* ==================== SECTION 4 ==================== */
+    .home_section4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 8% 3%;
+    }
+
+
+
+
+
+/* ==================== SECTION 5 ==================== */
+    .home_section5_main_div {
         width: 40%;
     }
 
-    .aboutme_main_div p {
+    .home_section5_main_div p {
         line-height: 2.4rem;
     }
 
@@ -482,23 +576,23 @@
 
 
 
-/* ==================== GOALS ==================== */
-    .goals_main_div {
+/* ==================== SECTION 6 ==================== */
+    .home_section6_main_div {
         width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
     }
 
-    .goals_img_div {
+    .home_section6_img_div {
         width: 40%;
     }
 
-    .goals_text_div {
+    .home_section6_text_div {
         width: 50%;
     }
 
-    .goals_text_div p {
+    .home_section6_text_div p {
         line-height: 2.4rem;
         text-align: start;
     }
@@ -514,7 +608,8 @@
 
 
 @media (min-width: 762px) and (max-width: 1024px) {
-    .home_main_div {
+/* ==================== SECTION 1 ==================== */
+    .home_section1_main_div {
         width: 80%;
     }
 
@@ -530,14 +625,14 @@
         font-size: 1.5rem;
     }
 
-    .home_image_div {
+    .home_section1_image_div {
         width: 300px;
     }
 
 
 
 
-/* ==================== SKILLS ==================== */
+/* ==================== SECTION 3 ==================== */
     .grid_item h3 {
         font-size: 2rem;
     }
@@ -550,12 +645,24 @@
 
 
 
-/* ==================== ABOUT ME ==================== */
-    .aboutme_main_div {
+/* ==================== SECTION 4 ==================== */
+    .home_section4 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 8% 3%;
+    }
+
+
+
+
+
+/* ==================== SECTION 5 ==================== */
+    .home_section5_main_div {
         width: 80%;
     }
 
-    .aboutme_main_div p {
+    .home_section5_main_div p {
         line-height: 2.4rem;
     }
 
@@ -563,13 +670,13 @@
 
 
 
-/* ==================== GOALS ==================== */
-    .goals_text_div {
+/* ==================== SECTION 6 ==================== */
+    .home_section6_text_div {
         width: 80%;
         margin: auto;
     }
 
-    .goals_text_div p {
+    .home_section6_text_div p {
         line-height: 2.4rem;
     }
 } /* ---- tablets ---- */
@@ -584,6 +691,7 @@
 
 
 @media (min-width: 500px) and (max-width: 762px) {
+/* ==================== SECTION 1 ==================== */
     .home_text_div h1 {
         font-size: 3.2rem;
     }
@@ -596,7 +704,7 @@
         font-size: 1.4rem;
     }
 
-    .home_image_div {
+    .home_section1_image_div {
         width: 260px;
     }
 
@@ -604,7 +712,7 @@
 
 
 
-/* ==================== SKILLS ==================== */
+/* ==================== SECTION 3 ==================== */
     .grid_item h3 {
         font-size: 1.9rem;
     }
@@ -617,12 +725,12 @@
 
 
 
-/* ==================== ABOUT ME ==================== */
-    .aboutme_main_div {
+/* ==================== SECTION 5 ==================== */
+    .home_section5_main_div {
         width: 80%;
     }
 
-    .aboutme_main_div p {
+    .home_section5_main_div p {
         line-height: 2.2rem;
     }
 
@@ -630,8 +738,8 @@
 
 
 
-/* ==================== GOALS ==================== */
-    .goals_text_div p {
+/* ==================== SECTION 6 ==================== */
+    .home_section6_text_div p {
         line-height: 2.2rem;
     }
 } /* ---- mobile and small tablets ---- */

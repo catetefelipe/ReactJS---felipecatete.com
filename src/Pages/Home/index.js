@@ -2,27 +2,29 @@ import React from "react";
 import "./styles.css";
 
 // COMPONENTES
-//botão do "Entre em contato"
+//botão do "Entre em contato" na section 1
 import Popup from "../../Components/Popup/index";
 // barra azul com símbolos das linguagens
-import Symbols from "./LanguageSymbols/index";
+import Symbols from "./Section-2/index";
 
 // IMAGENS
-// minha foto no computador
-import aboutme from "../../Images/Home/aboutme.png";
-// a foto da minha cara na section onde eu falo sobre mim
-import pic from "../../Images/AboutMe/profile_pic.png";
-// foto da seção dos objetivos, a imagem que é uma escada
-import steps from "../../Images/Goals/steps.png";
+// section 1
+import aboutme from "../../Images/Home/Section-1/aboutme.png";
+// section 4
+import github from "../../Images/Home/Section-4/github.png";
+// section 5
+import pic from "../../Images/Home/Section-5/profile_pic.png";
+// section 6
+import steps from "../../Images/Home/Section-6/steps.png";
 
 
 
 function Home() {
     return (
         <>
-            <header className="home">
-                <div className="home_main_div">
-                    <div className="home_image_div">
+            <header className="home_section1">
+                <div className="home_section1_main_div">
+                    <div className="home_section1_image_div">
                         <img src={aboutme} alt=""/>
                     </div>
 
@@ -42,7 +44,7 @@ function Home() {
 
 
 
-
+            {/* SECTION 2 */}
             {/* barra azul com símbolos das linguagens logo abaixo da primeira section da página home */}
             <Symbols />
 
@@ -55,7 +57,7 @@ function Home() {
 
 
 
-            <section className="skills">
+            <section className="home_section3">
                 <h2>Habilidades</h2>
                 <div className="grid_container">
                     <div className="grid_item i_1">
@@ -68,7 +70,7 @@ function Home() {
                     </div>
                     <div className="grid_item i_3">
                         <h3>Ferramentas</h3>
-                        <p>HTML, CSS, JavaScript, React, Chrome Dev Tools, GitHub, Netlify, PHP, WordPress, Bootstrap, etc</p>
+                        <p>HTML, CSS, Vanilla JavaScript, React, Chrome Dev Tools, GitHub, Netlify, WordPress, Bootstrap, etc</p>
                     </div>  
                     <div className="grid_item i_4">
                         <h3>UI/UX</h3>
@@ -94,10 +96,39 @@ function Home() {
 
 
 
-            <section className="aboutme">
+            <section className="home_section4">
+                <div className="github_div_img">
+                    <img src={github} alt="GitHub" />
+                </div>
+                <div>
+                    <h2>Repositórios</h2>
+                    <p>Confira alguns dos meus projetos no GitHub!</p>
+                    <ul>
+                        <li><b>EXEMPLOS:</b></li>
+                        <li>ReactJS---Vivadi----EdTech-Startup</li>
+                        <li>VanillaJS---Drag-and-Drop-List</li>
+                        <li>ReactJS---felipecatete.com</li>
+                        <li>VanillaJS---Light-Dark-Theme-Button-Toggle</li>
+                    </ul>
+                    <div className="github_div_button">
+                        <a href="https://github.com/felipe-catete?tab=repositories" target="_blank">Conheça meu Repositório</a>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+            <section className="home_section5">
                 <h2>Sobre Mim</h2>
-                <div className="aboutme_main_div">
-                    <div className="aboutme_img_div">
+                <div className="home_section5_main_div">
+                    <div className="home_section5_img_div">
                         <img src={pic} alt="Felipe Catete" />
                     </div>
                     <p>Estou em busca da evolução na minha carreira como programador, por isso procuro por uma empresa com profissionais motivados que em troca receberão toda a minha dedicação e ajuda.</p>
@@ -113,13 +144,13 @@ function Home() {
 
 
 
-            <section className="goals">
-                <div className="goals_main_div">
-                    <div className="goals_img_div">
+            <section className="home_section6">
+                <div className="home_section6_main_div">
+                    <div className="home_section6_img_div">
                         <img src={steps} alt="" />
                     </div>
 
-                    <div className="goals_text_div">
+                    <div className="home_section6_text_div">
                     <h2>Objetivos</h2>
                     <p>Quero ajudar a minha equipe com a minha energia e com o máximo do meu conhecimento, buscando solucionar problemas, ajudando o próximo e consequentemente evoluindo como programador.</p>
                     </div>
