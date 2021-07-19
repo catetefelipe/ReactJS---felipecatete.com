@@ -1,9 +1,9 @@
 import React from "react";
 
 // lista com as imagens
-import { SymbList } from "./SymbolsHelpers/SymbList";
+import { SymbList } from "./SymbList";
 // importa o array e configura as medidas das imagens
-import SymbItem from "./SymbolsHelpers/SymbItem";
+import SymbItem from "./SymbItem";
 
 
 
