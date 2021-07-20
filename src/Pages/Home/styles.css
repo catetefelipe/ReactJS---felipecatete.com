@@ -576,6 +576,10 @@
 
 
 /* ==================== SECTION 5 ==================== */
+    .home_section5 {
+        padding: 6% 4%;
+    }
+
     .home_section5_main_div {
         width: 40%;
     }
