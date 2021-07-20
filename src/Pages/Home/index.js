@@ -15,7 +15,9 @@ import github from "../../Images/Home/Section-4/github.png";
 // section 5
 import pic from "../../Images/Home/Section-5/profile_pic.png";
 // section 6
-import steps from "../../Images/Home/Section-6/steps.png";
+import vivadi from "../../Images/Home/Section-6/vivadi.png";
+// section 7
+import steps from "../../Images/Home/Section-7/steps.png";
 
 
 
@@ -25,7 +27,7 @@ function Home() {
             <header className="home_section1">
                 <div className="home_section1_main_div">
                     <div className="home_section1_image_div">
-                        <img src={aboutme} alt=""/>
+                        <img src={aboutme} />
                     </div>
 
                     <div className="home_text_div">
@@ -98,7 +100,7 @@ function Home() {
 
             <section className="home_section4">
                 <div className="github_div_img">
-                    <img src={github} alt="GitHub" />
+                    <img src={github} />
                 </div>
                 <div>
                     <h2>Repositórios</h2>
@@ -129,7 +131,7 @@ function Home() {
                 <h2>Sobre Mim</h2>
                 <div className="home_section5_main_div">
                     <div className="home_section5_img_div">
-                        <img src={pic} alt="Felipe Catete" />
+                        <img src={pic} />
                     </div>
                     <p>Estou em busca da evolução na minha carreira como programador, por isso procuro por uma empresa com profissionais motivados que em troca receberão toda a minha dedicação e ajuda.</p>
                 </div>
@@ -145,12 +147,35 @@ function Home() {
 
 
             <section className="home_section6">
-                <div className="home_section6_main_div">
-                    <div className="home_section6_img_div">
-                        <img src={steps} alt="" />
+                <div className="home_section6_text_div">
+                    <h2>Meu projeto preferido feito com React</h2>
+                    <p>Eu simulei o desenvolvolvimento front-end de uma Edtech Startup que visa desenvolver soft skills de crianças e adolescentes. Eles haviam criado a plataforma em um CMS e queriam migrar para um código original da empresa. Achei a idéia interessante e fiz a simulação do que seria um trabalho profissional para colocar em prática o que eu venho aprendendo. <b>P.S. O código da plataforma está disponível no meu repositório.</b></p>
+                    <br />
+                    <span>• CLIQUE NA IMAGEM E ACESSE O SITE!</span>
+                </div>
+                <div className="home_section6_img_div">
+                    <a href="https://vivadi.netlify.app/"  target="_blank">
+                        <img src={vivadi} href/>
+                    </a>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+            <section className="home_section7">
+                <div className="home_section7_main_div">
+                    <div className="home_section7_img_div">
+                        <img src={steps} />
                     </div>
 
-                    <div className="home_section6_text_div">
+                    <div className="home_section7_text_div">
                     <h2>Objetivos</h2>
                     <p>Quero ajudar a minha equipe com a minha energia e com o máximo do meu conhecimento, buscando solucionar problemas, ajudando o próximo e consequentemente evoluindo como programador.</p>
                     </div>

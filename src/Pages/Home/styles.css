@@ -337,7 +337,6 @@
 
 /* ----- div principal ----- */
 .home_section5_main_div {
-    width: 90%;
     margin: auto;
 }
 
@@ -366,7 +365,7 @@
 .home_section5_main_div p {
     font-size: 1.7rem;
     line-height: 2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -390,13 +389,74 @@
 
 /* ==================== SECTION 6 ==================== */
 .home_section6 {
-    padding: 7% 5% 7% 5%;
+    padding: 12% 4% 10% 4%;
+    text-align: center;
+    background-color: #fee;
+}
+
+
+/* ----- texto ----- */
+.home_section6_text_div {
+    margin-bottom: 3rem;
+}
+
+.home_section6_text_div h2 {
+    margin-bottom: 2rem;
+    font-size: 2.8rem;
+}
+
+
+.home_section6_text_div p {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+
+/* ----- imagem ----- */
+.home_section6_img_div {
+    margin-bottom: 1rem;
+}
+
+
+.home_section6 img {
+    width: 100%;
+    max-width: 800px;
+}
+
+
+/* ----- span tag ----- */
+.home_section6_text_div span {
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================== SECTION 7 ==================== */
+.home_section7 {
+    padding: 7% 2% 7% 2%;
     background-color: #FFF;
 }
 
 
 /* ----- images ----- */
-.home_section6_img_div {
+.home_section7_img_div {
     display: flex;
     justify-content: center;
     width: 90%;
@@ -405,7 +465,7 @@
 }
 
 
-.home_section6_img_div img {
+.home_section7_img_div img {
     width: 100%;
     max-width: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -413,14 +473,14 @@
 
 
 /* ----- text ----- */
-.home_section6_text_div h2 {
+.home_section7_text_div h2 {
     padding: 2rem 0 2.5rem 0;
     font-size: 2.8rem;
     text-align: center;
 }
 
 
-.home_section6_text_div p {
+.home_section7_text_div p {
     font-size: 1.7rem;
     line-height: 2rem;
     padding-bottom: 1rem;
@@ -577,22 +637,47 @@
 
 
 /* ==================== SECTION 6 ==================== */
-    .home_section6_main_div {
+    .home_section6 {
+        display: flex;
+        padding: 7% 4%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .home_section6_text_div {
+        width: 40%;
+        text-align: start;
+    }
+
+    .home_section6_text_div h2 {
+        margin-bottom: 2rem;
+    }
+
+    .home_section6_img_div {
+        width: 50%;
+    }
+
+
+
+
+
+/* ==================== SECTION 7 ==================== */
+    .home_section7_main_div {
         width: 90%;
         margin: auto;
         display: flex;
         align-items: center;
     }
 
-    .home_section6_img_div {
+    .home_section7_img_div {
         width: 40%;
     }
 
-    .home_section6_text_div {
+    .home_section7_text_div {
         width: 50%;
     }
 
-    .home_section6_text_div p {
+    .home_section7_text_div p {
         line-height: 2.4rem;
         text-align: start;
     }
@@ -672,11 +757,26 @@
 
 /* ==================== SECTION 6 ==================== */
     .home_section6_text_div {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+
+    .home_section6_img_div {
+        margin: 0;
+    }
+
+
+
+
+
+/* ==================== SECTION 7 ==================== */
+    .home_section7_text_div {
         width: 80%;
         margin: auto;
     }
 
-    .home_section6_text_div p {
+    .home_section7_text_div p {
         line-height: 2.4rem;
     }
 } /* ---- tablets ---- */
@@ -738,8 +838,20 @@
 
 
 
+
 /* ==================== SECTION 6 ==================== */
-    .home_section6_text_div p {
+    .home_section6_text_div {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 3rem;
+    }
+
+
+
+
+
+/* ==================== SECTION 7 ==================== */
+    .home_section7_text_div p {
         line-height: 2.2rem;
     }
 } /* ---- mobile and small tablets ---- */
