@@ -366,6 +366,7 @@
     font-size: 1.7rem;
     line-height: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 
@@ -451,7 +452,7 @@
 
 /* ==================== SECTION 7 ==================== */
 .home_section7 {
-    padding: 7% 2% 8% 2%;
+    padding: 7% 2%;
     background-color: #FFF;
 }
 
@@ -619,6 +620,10 @@
 
 
 /* ==================== SECTION 7 ==================== */
+    .home_section7 {
+        padding: 7% 0;
+    }
+
     .home_section7_main_div {
         width: 90%;
         margin: auto;
