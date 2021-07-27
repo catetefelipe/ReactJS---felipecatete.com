@@ -31,6 +31,7 @@ html {
 body {
     /* faz com que essa fonte seja o mesmo que 16px padrão (devido a font-size setada na tag html) */
     font-size: 1.6rem;
+    background-color: #191e28;
 }
 
 
