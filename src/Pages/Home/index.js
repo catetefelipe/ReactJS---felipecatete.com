@@ -9,7 +9,7 @@ import Symbols from "./Section-2/index";
 
 // IMAGENS
 // section 1
-import aboutme from "../../Images/Home/Section-1/aboutme.png";
+import computer from "../../Images/Home/Section-1/computer.gif";
 // section 4
 import github from "../../Images/Home/Section-4/github.png";
 // section 5
@@ -27,7 +27,7 @@ function Home() {
             <header className="home_section1">
                 <div className="home_section1_main_div">
                     <div className="home_section1_image_div">
-                        <img src={aboutme} />
+                        <img src={computer} />
                     </div>
 
                     <div className="home_text_div">
